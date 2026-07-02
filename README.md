@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚦 Sistema de Clasificación de Señales de Tráfico (Visión Clásica)
+# Sistema de Clasificación de Señales de Tráfico (Visión Clásica)
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
@@ -13,25 +13,25 @@
 
 ---
 
-## 📖 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto implementa un sistema de reconocimiento visual capaz de identificar señales de tráfico específicas a partir de imágenes en crudo. A diferencia de los enfoques modernos de Deep Learning (como CNNs), este proyecto se construye desde cero utilizando **técnicas clásicas de Visión por Computador**, demostrando un profundo entendimiento de la adquisición, preprocesado, extracción de características y clasificación de patrones.
 
 El sistema está entrenado para clasificar 5 tipos de señales del dataset **GTSRB (German Traffic Sign Recognition Benchmark)**:
-- 🛑 **14:** Stop
-- 🔻 **13:** Ceda el Paso
-- ⛔ **17:** Prohibido
-- ↗️ **33:** Giro a la Derecha
-- ↘️ **38:** Mantener la Derecha
+- **14:** Stop
+- **13:** Ceda el Paso
+- **17:** Prohibido
+- **33:** Giro a la Derecha
+- **38:** Mantener la Derecha
 
-## 👥 Autores
+## Autores
 
 - **Rodrigo Briz Ramos**
 - **Isaac Pérez Mascaró**
 
 ---
 
-## ⚙️ Metodología y Pipeline
+## Metodología y Pipeline
 
 El proyecto sigue una arquitectura secuencial (pipeline) donde cada módulo es responsable de una etapa crítica del proceso de reconocimiento:
 
@@ -60,7 +60,7 @@ El proyecto sigue una arquitectura secuencial (pipeline) donde cada módulo es r
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```text
 ├── Informe.pdf              # Documentación detallada del desarrollo
@@ -77,7 +77,7 @@ El proyecto sigue una arquitectura secuencial (pipeline) donde cada módulo es r
 
 ---
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### Requisitos Previos
 
